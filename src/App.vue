@@ -1,7 +1,7 @@
 <script setup>
 import { ref, reactive, onMounted } from 'vue'
 
-const API_BASE = '/api'
+const API_BASE = window.__ENV__.API_BASE
 
 const items = ref([])
 const showList = ref(true)
