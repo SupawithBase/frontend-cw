@@ -1,7 +1,7 @@
 <script setup>
 import { ref, reactive, onMounted } from 'vue'
 
-const API_BASE = window.__ENV__.API_BASE
+const API_BASE = '/api'
 
 const items = ref([])
 const showList = ref(true)
@@ -123,7 +123,7 @@ onMounted(() => {
 
 <template>
 	<div class="container">
-		<h1>CRUD Playground</h1>
+		<h1>CRUD Playground 67002906</h1>
 
 		<section class="card">
 			<h2 @click="showList = !showList" style="cursor:pointer">List items <small>click to toggle</small></h2>
